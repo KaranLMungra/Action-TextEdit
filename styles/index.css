@@ -9,7 +9,7 @@
 
 body {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   background-color: var(--body-bg-color);
 }
 
@@ -18,7 +18,8 @@ body {
   width: 700px;
   height: 32px;
   left: calc(50% - 700px / 2);
-  top: calc(25% - 2 * 32px);
+  /* top: calc(25% - 2 * 32px); */
+  top: 10%;
   background: #ffffff;
   mix-blend-mode: normal;
   padding: 8px;
