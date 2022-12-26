@@ -9,6 +9,7 @@
   <script defer src="js/index.js"></script>
 </head>
 <body>
+  <!-- <div class="status"></div> -->
   <div class="action_panel" id="action-bar">
       <div class="line_col_box">
         <span class="line_col">Ln 123 | Col 69</span>        
@@ -25,7 +26,7 @@
     </div>
     <div class="separator"></div>
       <div class="text-btn">
-        <span class="text-icon-btn">+</span>&nbsp;&nbsp;<span class="text-icon-btn">-</span>&nbsp;&nbsp;<span class="strong" id="zoom_strong">Z</span>OOM
+        <span class="text-icon-btn" id="zoom_in">+</span>&nbsp;&nbsp;<span class="text-icon-btn" id="zoom_out">-</span>&nbsp;&nbsp;<span class="strong" id="zoom_strong">Z</span>OOM
     </div>
     <div class="separator"></div>
     <div class="search-box">
@@ -38,7 +39,7 @@
       <div class="margin">
       </div>
       <div class="text-box-container">
-        <textarea class="text-box"></textarea>
+        <textarea class="text-box" id="text-editor" style="font-size: 14px;"></textarea>
       </div>
     </div>
   </div>
